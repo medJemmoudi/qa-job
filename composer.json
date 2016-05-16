@@ -1,0 +1,23 @@
+{
+    "name": "pph/questions-form-job",
+    "description": "simple API about questions & answers",
+    "require": {
+        "slim/slim": "^2.6",
+        "voodoophp/voodorm": "^2.1",
+        "akrabat/rka-slim-controller": "^2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers/",
+            "app/models/",
+            "app/repositories/"
+        ]
+    },
+    "license": "",
+    "authors": [
+        {
+            "name": "Mohammed JEMMOUDI",
+            "email": "med.jemmoudi@gmail.com"
+        }
+    ]
+}
